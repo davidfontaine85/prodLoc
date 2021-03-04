@@ -1,0 +1,774 @@
+/*---Base---*/
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Oranienbaum', serif;
+    font-weight: 600;
+}
+
+h1{
+    color: #648A52;
+    font-size: 1.4em;
+}
+
+h2{
+    color: #B2564A;
+    font-size: 1em;
+}
+
+p{
+    font-size: 0.8em;
+    margin-top: unset;
+}
+
+em{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #B2564A;
+    
+    
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.row{
+    margin-left: unset;
+    margin-right: unset;
+}
+html, body{
+    height: 100%;
+	margin:0
+}
+embed{
+    width: 1024px;
+    height: 1600px;
+}
+strong{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+/*------------------Header-----------------*/
+
+.header{
+    height: 99vh;
+    
+
+}
+.split-left{
+    background-image: url('../img/iStock-612261820.jpg');
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 110%;
+    z-index: -1;
+}
+
+.split-right {
+    background: url('../img/iStock-643644650.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 110%;
+    z-index: -1;
+ }
+.filter{
+    height: 99vh;
+    background: linear-gradient(311deg, rgba(255, 255, 255, 0.07) 29%, 
+                        rgba(255, 255, 255, 0.24) 52%,
+                         rgba(255, 255, 255, 0.48) 71%);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+    
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.banner{
+    height: 100%;
+}
+
+.logo{
+    background-color: #ffffffcf;
+    width: 13em;
+    justify-content: center;
+    display: flex;
+    margin-left: 3em;
+    box-shadow: 0 0 20px 19px #ffffffd9;
+}
+
+.logo img{
+    height: 15em;
+}
+.logo-mobile{
+    display: none;
+}
+
+.banner-title{
+    height: 150vh;
+}
+
+.title{
+    background-color: #F0E2BB;
+    border-radius: 6px;
+    padding: 0.3em;
+    border: 2px solid #648A52;
+    overflow: hidden;
+    height: 3em;
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.title h1, .title h2{
+    font-size: xx-large;
+}
+
+.menu{
+    margin-left: 2em;
+}
+
+.menu ul{
+    margin: unset;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu li{
+    
+    line-height: 1.3;
+    padding: 0 0.5em 0 0.5em;
+    margin: unset;
+    margin-right: 0.5em;
+    background-color: #F0E2BB;
+    border-radius: 6px;
+    padding: 0.3em;
+    border: 2px solid #648A52;
+}
+
+.menu h2{
+    margin: unset;
+    font-size: xx-large;
+    text-shadow: -1px 1px #F0E2BB;
+}
+
+.social{
+    background-color: #F0E2BB;
+    border-radius: 6px;
+    border: 2px solid #648A52;
+    margin-left: auto;
+    margin-right: 0.5em;
+    height: 1.5em;
+    
+}
+
+.social p{
+    margin-bottom: unset;
+    font-size: 0.8em;
+}
+
+.facebook{
+    color: #1A5EC9;
+}
+.instagram {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 1em;
+    width: 1.2em;
+    text-align: center;
+    border-radius: 0.2em;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1em;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+
+
+  /*----------------------RPB---------------------*/
+
+  .rpb{
+      padding-top: 2em;
+      background-color: #fff;
+      border-top: 1.5em solid #516c45;
+      border-bottom: 1.5em solid #516c45;
+  }
+  .low-title{
+      padding: 5em 0;
+      height: 70vh;
+  }
+  .low-title h2{
+    width: 45%;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 4em;
+    font-size: xx-large;
+      
+  }
+  .logo-bio1 img{
+    height: 12.5em;
+    width: 14em;
+  }
+  .logoRond{
+    height: 12.5em!important;
+    width: 12.5em!important;
+  }
+
+  .low-section:nth-child(2){
+    height: 110vh;
+    padding: 3.5em 0 3.5em 0;
+    background-color: #648A52;
+    box-shadow: -2px -10px 20px 0px black;
+    
+  }
+  .low-section:nth-child(3){
+    height: 85vh;
+    padding: 10em 0 10em 0;
+    justify-content: space-evenly;
+    background-image: url('../img/woodReverse.jpg');
+    background-size: cover;
+    box-shadow: inset 2px 1px 20px 9px #000000;
+  }
+  .low-section:nth-child(3) p{
+      margin-top: 2em;
+  }
+  .low-section:nth-child(4){
+    height: 100vh;
+    padding: 0 0 0 0;
+    background-color: #f0f0bb;
+  }
+  .low-section:nth-child(5){
+    padding: 10em 0 10em 0;
+    box-shadow: inset 2px 1px 20px 9px #000000;
+    background-image: url('../img/wood-leaves-timber-wood-planks-139312.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .low-section:nth-child(6){
+    height: 80vh;
+    padding: 10em 0 10em 0;
+    background-image: url('../img/thumbnail_20191024_082503.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .low-section:nth-child(6) p{
+      background-color: white;
+      border: 1px solid #648A52;
+      border-radius: 6px 6px 6px 6px;
+      padding: 0.1em;
+      width: 33%;
+  }
+
+  .low-section p{
+    font-size: xx-large;
+    width: 20%;
+    text-align: center;
+    align-self: center;
+    background-color: #F0E2BB;
+    border: 3px solid #648A52;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 7px 10px 19px 7px black;
+    padding: 0.1em
+  }
+
+  .low-section .producteur{
+    width: 55%;
+    height: 100%;
+    padding: 1em;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #F0E2BB;
+    box-shadow: 0 0 9px black;
+  }
+
+  .low-section .aquitaine{
+    width: 15%;
+    border: 1px solid;
+    background-color: #F0E2BB;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    margin-right: 15em;
+  }
+
+  .low-section .cagette{
+    background-image: url('../img/photo-agriculteur2.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cagette-text p{
+    width: 55%;
+    padding: 0.5em;
+  }
+
+  .low-section .panier{
+    width: 45%;
+    transform: rotate(3deg);
+    z-index: 1;
+  }
+
+  .low-section .etalage{
+    width: 45%;
+  }
+
+
+/*------------------Footer------------------*/
+
+.footer img{
+    height: 10em;
+    width: 10em;
+}
+
+.logo-bio2 img{
+    height: 3em;    
+    width: 3em;
+}
+.footer h3{
+    border: 1px solid rgba(118, 47, 23, 0.589);
+    border-radius: 2px;
+    text-align: center;
+    font-size: 0.8em;
+    margin-left: auto;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    align-self: flex-end;
+}
+
+/*---AboutUs---*/
+
+.about-us{
+    background-color: #F0E2BB;
+    border-top: 1.5em solid #516c45;
+    border-bottom: 1.5em solid #516c45;
+}
+
+.aboutFooter h4, .aboutFooter p{
+    color: #77933C;
+}
+.plaquetteP1, .plaquetteP2, .plaquetteDL{
+    display: none;
+}
+.mobileView{
+    display: none;
+}
+
+/*---Contact---*/
+
+.fullSection{
+    height: 110vh;
+    background-image: url('../img/wood-leaves-timber-wood-planks-139312.jpg');
+    border-top: 1.5em solid #516c45;
+    border-bottom: 1.5em solid #516c45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20em;
+}
+
+.form-color{
+    background-color: #516c45;
+}
+.btn-form-color{
+    color: #fff;
+    background-color: #516c45;
+    border-color: #516c45;
+}
+
+.infos{
+    margin: 3em auto;
+    
+}
+.contact{
+    background-color: #F0E2BB;
+    border-radius: 6px;
+    padding: 0.3em;
+    border: 2px solid #648A52;
+    margin-bottom: 3em;
+}
+.contact p{
+    font-size: larger;
+    color: black;
+    letter-spacing: 0.3px;
+}
+.checkRgpd a{
+    color: #B2564A;
+}
+
+/*---RGPD---*/
+
+.rgpd-display{
+    display: none;
+}
+.rgpd-container a:visited, .rgpd-container a:link{
+    text-decoration: underline;
+    color: #B2564A;
+}
+
+/*---StickyClass---*/
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 1em;
+    width: 101%;
+    background-color: rgb(23, 68, 42);
+    margin-left: unset!important;
+    margin-right: unset!important;
+    padding-top: 1.5em;
+    padding-right: unset;
+    padding-left: unset;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    max-width: unset;
+    z-index: 2;
+    height: 4em;
+  }
+
+
+
+
+/*---BreakPoint---*/
+
+
+/*---Width---*/
+
+@media only screen and (max-width: 1920px){
+    .low-section .producteur{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .low-title{
+        padding: 0;
+        height: 80vh;
+    }
+    .low-title h2{
+        padding-bottom: 3em!important;
+    }
+    .low-section .aquitaine{
+        width: 20%!important;
+    }
+    .low-section .producteur{
+        height: 90%!important;
+        width: 65%!important;
+        align-self: center;
+    }
+  }
+@media only screen and (max-width: 1523px){
+    
+    .low-section:nth-child(3){
+        height: 120vh;
+    }
+    .fullSection{
+        height: 155vh;
+    }
+}
+@media only screen and (max-width: 1030px){
+
+    
+    .split-left{
+        display: none;
+    }
+    .split-right{
+        width: 150%;
+    }
+    .menu{
+        margin-left: unset;
+    }
+    .title{
+        margin-bottom: 1em;
+    }
+    .low-title{
+        height: 35vh;
+    }
+    .low-section p{
+        width: 40%;
+    }
+    .low-section:nth-child(2){
+        display: flex!important;
+        flex-direction: column;
+        height: 80vh;
+    }
+    .low-section .producteur{
+        width: 92%!important;
+        align-self: center;
+        height: 60%!important;
+    }
+    .low-section:nth-child(3){
+        height: 85vh;
+    }
+    .low-section:nth-child(3) p{
+        margin-top: 0;
+    }
+    .low-section .aquitaine {
+        width: 38%!important;
+        margin-bottom: 6em;
+        margin-right: 0;
+    }
+    .cagette-text p {
+        width: 85%;
+    }
+    .low-section:nth-child(6) {
+        height: 60vh;
+    }
+    .low-section:nth-child(6) p{
+        width: 46%;
+    }
+    .fullSection{
+        padding-left: 0;
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 770px){
+
+    
+    .menu{
+        justify-content: center!important;
+    }
+    .title{
+        width: unset;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        justify-content: center;
+    }
+    .low-title{
+        height: 50vh;
+    }
+    .low-section:nth-child(2){
+        height: 90vh;
+    }
+    .low-section .producteur{
+        margin-bottom: 2em;
+    }
+    .low-section:nth-child(3) p{
+        width: 38%
+    }
+    .low-section:nth-child(5) p{
+        width: 30%;
+    }
+    .low-section:nth-child(6) p{
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 414px){
+
+
+    .logo{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+        padding-bottom: 2em;
+    }
+    .logo-mobile img{
+        height: 11em;
+    }
+    embed{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+    .plaquetteP1, .plaquetteP2{
+        display: block;
+        overflow: scroll;
+    }
+    .plaquetteP1 img, .plaquetteP2 img{
+        height: 70vh;
+        width: auto;
+    }
+    .plaquetteDL{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 5vh;
+    }
+    .plaquetteDL a:visited, .plaquetteDL a:link{
+        text-decoration: underline;
+        color: #77933C;
+    }
+    .rgpd-display{
+        display: block;
+    }
+    .pdf{
+        display: none;
+    }
+    .split-right{
+        width: 191%;
+    }
+    .banner{
+        padding-top: 0!important;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .title h1, .title h2 {
+        font-size: larger;
+    }
+    .menu h2{
+        font-size: larger;
+    }
+    .low-title{
+        height: 70vh;
+    }
+    .low-title h2{
+        width: 100%;
+        font-size: x-large;
+    }
+    .logo-bio1{
+        margin-bottom: 2em;
+    }
+    .logo-bio1 img{
+        height: 4.5em;
+        width: 6em;
+    }
+    .logoRond{
+        height: 4.5em!important;
+        width: 4.5em!important;
+    }
+    .low-section p {
+        font-size: x-large;
+    }
+    .low-section .producteur{
+        width: 90%!important;
+        height: 50%!important;
+    }
+    .low-section.low-section:nth-child(2) p{
+        width: 65%!important;
+    }
+    .low-section.low-section:nth-child(3) p{
+        width: 65%!important;
+    }
+    .low-section:nth-child(4) .cagette-text{
+        position: absolute;
+        top: 400px;
+        right: 10px;
+    }
+    .low-section:nth-child(5){
+        height: 70vh;
+    }
+    .low-section:nth-child(5) p{
+        position: absolute;
+        z-index: 1;
+        top: 314px;
+        width: 40%;
+    }
+    .low-section .panier{
+        position: absolute;
+        width: 57%;
+        top: 112px; 
+    }
+    .low-section:nth-child(6) p{
+        width: 60%;
+    }
+    .fullSection{
+        height: 150vh;
+    }
+}
+@media only screen and (max-width: 390px){
+
+    .menu h2{
+        font-size: larger;
+    }
+    .low-section .producteur{
+        width: 109%!important;
+        height: 55%!important;
+        border: none;
+        box-shadow: none;
+    }
+    .low-section:nth-child(2){
+        height: 90vh!important;
+    }
+    .low-section:nth-child(3){
+        height: 75vh;
+    }
+    .panier{
+        top: 74px!important;
+    }
+    .low-section:nth-child(5) p{
+        top: 260px;
+    }
+    .low-section:nth-child(6) p{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 360px){
+
+    .contact{
+        margin-top: 11em;
+    }
+}
+@media only screen and (max-width: 321px){
+    .menu h2{
+        font-size: medium;
+    }
+    .low-section{
+        height: 100vh;
+    }
+}
+
+/*---Height---*/
+
+@media only screen and (max-height: 640px){
+    .low-section{
+        height: 100vh!important;
+    }
+}
+@media only screen and (max-height: 740px){
+    .low-section .producteur {
+        height: 50%!important;
+    }
+}
+@media only screen and (max-height: 760px){
+    .low-section:nth-child(3){
+        padding: 20em 0;
+    }
+}
